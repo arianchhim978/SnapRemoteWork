@@ -75,7 +75,8 @@ a{
     }
     #container{
         flex-direction:column-reverse; 
-        margin-left:10%;
+       margin-left:0;
+       margin-right:12.5%;
         overflow: hidden;
 
     } 
