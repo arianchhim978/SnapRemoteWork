@@ -100,5 +100,6 @@ a{
     }
     .light{
         font-size:25px;
+        width:75%;
     }
 }
