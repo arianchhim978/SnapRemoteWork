@@ -100,7 +100,6 @@ a{
     }
     .light{
         font-size:15px;
-        height:auto;
-        width:auto;
+     width:100px;
     }
 }
