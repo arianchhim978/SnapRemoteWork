@@ -61,11 +61,41 @@ a{
 } 
 .none{
     display: none;
+} 
+a{
+    color:black;
+
+}
+a:hover{
+    text-decoration: underline;
+} 
+.flex4{
+    display:flex;
+    width:200px;
+    margin-top:10%;
+    gap:5%;
+} 
+.modal{
+    width:200px;
+    border:solid 2px black; 
+    height:200px;
+    position:absolute; 
+    background-color:white;
+    left:53%;
+    bottom:70%;
+}
+.btn1{
+    border:none;
+  margin-left:70%;
+} 
+#modal{
+    display:none;
 }
 @media(max-width:600px){
+
     .none{
         display:block;
-        margin-right:5%;
+ 
     }
     ul{
         display:none;
